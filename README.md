@@ -22,7 +22,8 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ### Getting Started
 
-1. To reproduce this project you will not need to install Unity - this is because the Udacity team have already built the environment for us, and you can download it from one of the links below. You need only select the environment that matches your operating system:
+#### 1. Downloading the Environment
+To reproduce this project you will not need to install Unity - this is because the Udacity team have already built the environment for us, and you can download it from one of the links below. You need only select the environment that matches your operating system:
 
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
@@ -33,9 +34,10 @@ The task is episodic, and in order to solve the environment, your agent must get
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
-2. Place the file in the same folder as this repository, and unzip (or decompress) the file. Is it possible that you'll have to replace the url from the UnityEnvironment at `DQL_bananaGrabber.ipynb`.
+#### 2. Integrating the Environment
+Place the file in the same folder as this repository, and unzip (or decompress) the file. Is it possible that you'll have to replace the url from the UnityEnvironment at `DQL_bananaGrabber.ipynb`.
 
-3. Let's train our Agent
+#### 3. Let's train our Agent
 After you have followed the instructions above, open `DQL_bananaGrabber.ipynb`and follow the instructions to learn how to use the Python API to control the agent and train an agent using Deep Q-Learning.
 
 (_For AWS_) If you'd like to train the agent on AWS, you must follow the instructions to [set up X Server](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above.
