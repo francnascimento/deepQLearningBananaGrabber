@@ -42,3 +42,8 @@ After you have followed the instructions above, open `DQL_bananaGrabber.ipynb`an
 
 (_For AWS_) If you'd like to train the agent on AWS, you must follow the instructions to [set up X Server](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above.
 
+## License
+
+This project is free to use according to the [MIT License](https://github.com/francnascimento/DeepQLearningBananaGrabber
+/blob/master/LICENSE) as long as you cite me and the License (read the License for more details). You can cite me by pointing to the following link:
+- https://github.com/francnascimento/DeepQLearningBananaGrabber
